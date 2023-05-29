@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ECES</title>
+</head>
+<body>
+    <!--debut de l'header-->
+      <header class="sub">
+        <nav>
+            <a href="" class="logo"><img src="" alt="" >ECES</a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="apropos.html">A PROPOS</a></li>
+                <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+           <h1>CONTACTEZ-NOUS</h1>
+      </header>
+      <!--fin de l'header-->
+ <main>
+        <!-- -------------CONTACTEZ-NOUS DEBUT------- -->
+         
+        
+            <section class="lieu">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.8372142867597!2d15.274169715281316!3d-4.251907147250216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a332f8fade4cb%3A0x5ba9185387df9ee6!2s127%20Ave%20des%20Trois%20Martyrs%2C%20Brazzaville!5e0!3m2!1sfr!2scg!4v1657891838066!5m2!1sfr!2scg" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </section>
+
+
+            <section class="contactez_nous">
+                <div class="row">
+                    <div class="contact_col">
+                        <div>
+                            <i class="fa fa-home"></i>
+                            <span>
+                                <h5>85, Rue Archambault </h5>
+                                <p>Bacongo, BRAZZAVILLE</p>
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                <h5>+242 06 447 36  </h5>
+                                <p> LUNDI A SAMEDI, 7h a 16h</p>
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-envelope-o"></i>
+                            <span>
+                                <h5>contact@ikanservices.cg</h5>
+                                <p>Bacongo, BRAZZAVILLE</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact_col">
+
+                        <form action="" method="POST">
+                            <input  type="text"   name="nom"  placeholder="votre nom"  class="conct-form-text" required>
+                            <input  type="email" name="email" placeholder="votre Email" class="conct-form-text" required> 
+                            <textarea  name="objet" placeholder="Message " class="conct-form-textarea " required></textarea>
+                            <input type="submit" name="valider" class="conct-form-btn">
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+        <!-- -------------CONTACTEZ-NOUS FIN------- -->
+
+
+   
+
+
+
+    <!-- footer debut -->
+            <section  class="footer">
+                <h4>Apropos de nous</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum neque molestias sapiente unde omnis excepturi nisi deserunt,<br> delectus iste autem possimus blanditiis itaque vitae vero molestiae aspernatur eveniet, inventore necessitatibus!</p>
+
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+
+                <p>Designer and programmed by <i class="fa fa-heart-o"></i>Adhonaî KOUKA</p>
+
+            </section>
+
+    <!-- footer fin -->
+        
+ </main>
+         <!--camp fin-->
+
+
+        <!--code javascript debut-->
+      <script>
+        let navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right='0';
+        }
+
+        function hideMenu(){
+            navlinks.style.right='-200px';
+        }
+        
+
+      </script>
+
+       <!--code javascript fin-->
+</body>
+</html>

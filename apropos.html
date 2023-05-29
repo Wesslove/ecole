@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ECES</title>
+</head>
+<body>
+    <!--debut de l'header-->
+      <header class="sub">
+        <nav>
+            <a href="" class="logo"><img src="" alt="" >ECES</a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="apropos.html">A PROPOS</a></li>
+                <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+           <h1>QUI SOMMES-NOUS</h1>
+      </header>
+      <!--fin de l'header-->
+ <main>
+        <!-- -------------APROPOS DEBUT------- -->
+            <section class="apropos">
+                    <div class="row">
+                         <div class="about-col">
+                              <h1>Nous sommes une université privée</h1>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ab saepe modi aperiam quasi unde eum omnis temporibus deleniti. Fuga quisquam maiores ipsa, perferendis dolor provident facilis saepe nulla consectetur?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, laudantium mollitia cupiditate consequuntur quisquam ratione optio nostrum saepe suscipit odio quibusdam veniam deserunt ea ut facere vitae autem labore numquam.
+                                
+                              </p>
+                              <a href="" class="btn" >EXPLORER MAINTENAT </a>
+                         </div>
+                         <div class="about-col">
+                                <img src="images/slider/2.jpg" alt="information">
+                         </div>
+                    </div>
+            </section>
+        
+        <!-- -------------APROPOS DEBUT------- -->
+
+
+   
+
+
+
+    <!-- footer debut -->
+            <section  class="footer">
+                <h4>Apropos de nous</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum neque molestias sapiente unde omnis excepturi nisi deserunt,<br> delectus iste autem possimus blanditiis itaque vitae vero molestiae aspernatur eveniet, inventore necessitatibus!</p>
+
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+
+                <p>Designer and programmed by <i class="fa fa-heart-o"></i>Adhonaî KOUKA</p>
+
+            </section>
+
+    <!-- footer fin -->
+        
+ </main>
+         <!--camp fin-->
+
+
+        <!--code javascript debut-->
+      <script>
+        let navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right='0';
+        }
+
+        function hideMenu(){
+            navlinks.style.right='-200px';
+        }
+        
+
+      </script>
+
+       <!--code javascript fin-->
+</body>
+</html>
